@@ -1,0 +1,19 @@
+.header{
+background-color: rgb(7, 7, 49);
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 100px;
+}
+.head_nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_nav ul a{
+   text-decoration: none;
+   color: #fff;
+   margin-left: 20px;
+
+}
