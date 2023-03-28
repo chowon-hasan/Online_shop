@@ -22,4 +22,8 @@ padding: 10px ;
 background-color: bisque;
 border: none;
 margin-top: 20px;
+cursor: pointer;
+}
+.cart_button:hover{
+    background-color: burlywood;
 }
