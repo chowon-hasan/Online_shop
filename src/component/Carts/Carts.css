@@ -1,15 +1,37 @@
 .main_prod_body{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    margin: 30px 80px;
+    margin: 130px 80px;
+    position: relative;
 }
 .info_body{
+    position: fixed;
+    right: 5%;
     background-color: beige;
-    padding: 30px;
+    padding: 70px;
+}
+.info_body p{
+    margin: 30px 0;
+}
+.info_body h4{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 22px;
 }
 .product_body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-right: 20px;
+}
+.buttons_container{
+    margin-top: 30px;
+}
+.buttons_container button{
+ width: 100%;
+ background-color: rgb(237, 195, 25);
+ border: none;
+ padding: 14px 30px;
+ margin-bottom: 10px;
+ color: #fff;
 }
